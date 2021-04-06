@@ -46,7 +46,7 @@ add_filter('register_post_type_args', function ($args, $post_type) {
   if ($post_type === "chairs") {
     $args['show_in_graphql'] = true;
     $args['graphql_single_name'] = "chair";
-    $args['graphql_plural_name'] = "chairs";
+    $args['graphqln_plural_name'] = "chairs";
   }
 
   return $args;
